@@ -1,0 +1,34 @@
+analysis,form,mustpass,source,page,description
+кхоъ<num>,кхаа,pass,Yakovlev,61,cardinal numerals
+шиъ<num><obl><loc>,шиннаха,pass,Yakovlev,63-64,cardinal numerals
+<cl3>иъ<num>,веа,pass,Yakovlev,61-62,cardinal numerals
+цaI<num><obl><ins>,цхьанца,pass,Yakovlev,63,cardinal numerals
+ялх<num><ordinal><obl><gen>,ялхалгIачун,pass,Yakovlev,73,ordinal numerals
+кхоъ<num><ordinal>,кхоалгIа,pass,Yakovlev,69,ordinal numerals
+пхиъ<num><ordinal>,пхоьазлагIа,pass,Yakovlev,69,ordinal numerals
+тхо<pro><all><direction><across>,тхоьгахьахула,pass,Yakovlev,85,personal pronouns
+иза<pro><obl><loc>,цунаха,pass,Yakovlev,86,personal pronouns
+церан<pro><poss><obl><pl><all><source>,церачушкара,pass,Yakovlev,92,personal pronouns
+оьрсийн<adj>,оьрсийн,pass,Yakovlev,48,adjectives
+<cl1>оца<adj>,йоца,pass,Aliroyev,87,adjectives
+ледар<adj><obl><pl><loc>,ледарчараха,pass,Yakovlev,44,adjectives
+ледар<adj><obl><pl><loc>,ледарчарах,pass,Yakovlev,44,adjectives
+ледара<adj><obl><pl><loc>,ледарчараха,pass,overgeneration,-,adjectives
+ледара<adj><obl><pl><loc>,ледарчарах,pass,overgeneration,-,adjectives
+ледар<adj><obl><pl><loc>,ледарчийх,pass,Yakovlev,44,adjectives
+ледара<adj><obl><pl><loc>,ледарчийх,pass,overgeneration,-,adjectives
+олхазар<n><obl><loc>,олхазарх,pass,Aliroyev,37,nouns
+олхазар<n><obl><loc>,олхазарха,pass,Aliroyev,37,nouns
+олхазар<n><obl><ins>,олхазарца,pass,Aliroyev,37,nouns
+куьг<n><obl><ins>,куьйгаца,pass,Aliroyev,37,nouns
+москал<n><obl><loc>,москалх,pass,Aliroyev,39,nouns
+москал<n><obl><gen>,москалан,pass,Aliroyev,39,nouns
+москал<n><obl><pl><gen>,москалийн,pass,Aliroyev,39,nouns
+белхало<n><obl><ins>,белхалочуьнца,pass,Aliroyev,40,nouns
+москал<n><obl><pl><dat>,москалшна,pass,Aliroyev,39,nouns
+пен<n><obl><pl><comp>,пенийл,pass,-,-,nouns
+пен<n><obl><pl><comp>,пенийла,pass,-,-,nouns
+пен<n><obl><pl><comp>,пенийлла,pass,-,-,nouns
+пен<n><obl><pl><comp>,пенел,doesn't work for some reason,Aliroyev,37,nouns
+пен<n><obl><pl><comp>,пенела,doesn't work for some reason,-,-,nouns
+пен<n><obl><pl><comp>,пенелла,doesn't work for some reason,-,-,nouns

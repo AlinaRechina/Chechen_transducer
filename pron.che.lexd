@@ -1,0 +1,68 @@
+PATTERNS
+
+# PERSONAL PRONOUNS INFLECTION
+PersPro[abs] [<pro>:]
+PersPro[gen] [<pro>:] Case[gen]
+PersPro[erg] [<pro>:] Case[erg_o]
+PersPro[dat] [<pro>:] Case[dat]
+PersPro[loc] [<pro>:] Case[loc]
+PersPro[ins] [<pro>:] Case[ins]
+PersPro[comp] [<pro>:] Case[comp-comp_la]
+PersPro[all] [<pro>:] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
+
+# 3d person
+Pers3Pro[abs] [<pro>:]
+Pers3Pro[obl] [<pro>:] (Case[erg_o] | Case[comp])                                     # no oblique extension
+Pers3Pro[obl] [<pro>:] Pers3ProOblique[n] (Case[dat] | Case[loc])                       # -н- oblique extension
+Pers3Pro[obl] [<pro>:] Pers3ProOblique[pn] (Case[Adj_upn] | Case[gen])                      # -ьн- oblique extension
+Pers3Pro[obl] [<pro>:] Pers3ProOblique[pn] Case[all_ga] (AllDer | (AllDer1 AllDer2))           # allative derivations
+
+LEXICON PersPro  # Personal pronouns 
+
+со[abs,loc,comp]   # I
+со:соь[all,ins]
+со:са[gen]
+со:су[dat]
+со:ас[erg]
+
+тхо[abs,loc,comp]  # we (exclusive)
+тхо:тхоь[all,ins]
+тхо:тха[gen]
+тхо:тху[dat]
+тхо:ох[erg]
+
+вай[abs,loc,comp,all,ins,gen,dat,erg]  # we (inclusive)
+
+хьо[abs,loc,comp]  # you (sg)
+хьо:хьоь[all,ins]
+хьо:хьа[gen]
+хьо:хьу[dat]
+хьо:ахь[erg]
+
+шу[abs,loc,comp,gen,dat]  # you (pl)
+шу:шуь[all,ins]
+шу:аш[erg]
+
+уьзаш[abs] # they
+уьзаш:цер[gen]
+уьзаш:цар[comp,dat,erg,loc]
+уьзаш:царр[comp]
+уьзаш:цаьр[all,ins]
+
+уьш[abs] # they
+уьш:ацер[gen]
+уьш:ацар[comp,dat,erg,loc]
+уьш:ацарр[comp]
+уьш:ацаьр[all,ins]
+
+LEXICON Pers3Pro
+# operates like adjectives (but a little differen genitive)
+иза[abs]
+иза:цу[obl] # also attributive use (his)
+и[abs]      # also directive "that", inflection system is the same
+и:оцу[obl]  # also attributive use (his)
+
+LEXICON Pers3ProOblique
+<obl>:ьн[pn]
+<obl>:н[n]
+

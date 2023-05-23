@@ -1,0 +1,56 @@
+LEXICON Case
+
+<erg>:а[Pl_sh,erg_a]          
+<erg>:{obl}с[erg_s]                   
+<erg>:о[Adj_ch,erg_o]           
+<erg>:е                        
+
+<gen>:{obl}н[Pl_j,Num,Adj_u,gen] 
+
+# Dative
+<dat>:на[Pl_sh,Num,Adj_un,dat]  
+
+# Instrumentalis
+<ins>:ца[Pl_sh,Num_n,Adj_upn,ins] 
+
+
+# вещественный = locative
+<loc>:{obllight}х[Pl_e,Pl_j,Num,Adj_u,loc]     
+<loc>:{obllight}ха[Pl_e,Pl_j,Num,Adj_u,loc]   # Jakovlev 1960: derivated form
+
+# местный = allative
+<all>:га[all_der,Num_n,Adj_upn,all_ga]
+<all>:ка[all_der,Pl_sh]                       # plural only
+<all>:е[all_der,all_e]                       
+<all>:а[all_der,all_a]
+
+# сравнительный = comparative
+<comp>:{obl}л[Pl_j,Pl_e,Num,Adj_u,comp] 
+<comp>:{obl}ла[Pl_j,Pl_e,Num,comp_la]         # Jakovlev 1960: derivated form
+<comp>:{obl}лла[Pl_j,Pl_e,Num,Adj_u,comp]  	  # Jakovlev 1960: derivated form
+
+LEXICON AllDer # case glosses correspond to Nichols 1994
+<location>:хь
+<direction>:хьа
+<source>:{obl}ра       
+<across>:хула
+
+LEXICON AllDer1
+<direction>:хьа
+
+LEXICON AllDer2
+<source>:{obl}ра   
+<across>:хула
+
+LEXICON Plural
+<pl>:е[Pl_e]
+<pl>:{obllight}ш[Pl_sh]  
+<pl>:{obl}й[Pl_j]            
+
+# РОД
+LEXICON NounClass
+<cl1>:й #f+sg
+<cl2>:б #pl
+<cl3>:в #m+sg
+<cl4>:д #pl
+

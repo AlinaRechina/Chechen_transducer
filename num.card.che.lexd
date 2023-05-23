@@ -1,0 +1,116 @@
+PATTERNS
+(NumAttAbs[-Agr] | NumAttObl[-Agr]) [<num>:]          #no inflection
+NounClass (NumAttAbs[Agr] | NumAttObl[Agr]) [<num>:]  #agreement + no inflection
+
+NumSubstAbs[-Agr] [<num>:]                                                                                     # absolutive
+NumSubstAbs[-Agr] [<num>:] NumOblique[mm] Case[Num_erg]                                                        # ergative
+NumSubstObl[-Agr] [<num>:] NumOblique[nn] Case[Num]
+NumSubstObl[-Agr] [<num>:] NumOblique[n] Case[Num_n]
+                                                                                                               # various cases, not ergative
+NumSubstObl[-Agr] [<num>:] NumOblique ((Plural[Pl_j] Case[Pl_j]) | (Plural[Pl_sh] Case[Pl_sh]))                # plural  
+NumSubstObl[-Agr] [<num>:] NumOblique Case[all_ga] (AllDer | (AllDer1 AllDer2))?                               # singular allative derivations
+NumSubstObl[-Agr] [<num>:] NumOblique Plural[Pl_sh] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?          # plural allative derivations
+
+# whith class agreement (4, 14)
+NounClass NumSubstAbs[Agr] [<num>:]                                                                            # absolutive
+NounClass NumSubstAbs[Agr] [<num>:] NumOblique[mm] Case[erg_a]                                                 # ergative
+NounClass NumSubstObl[Agr] [<num>:] NumOblique[nn] Case[Num]
+NounClass NumSubstObl[Agr] [<num>:] NumOblique[n] Case[Num_n]                                                           # various cases, not ergative
+NounClass NumSubstObl[Agr] [<num>:] NumOblique ((Plural[Pl_j] Case[Pl_j]) | (Plural[Pl_sh] Case[Pl_sh]))                # plural  
+NounClass NumSubstObl[Agr] [<num>:] NumOblique Case[all_ga] (AllDer | (AllDer1 AllDer2))?                               # singular allative derivations
+NounClass NumSubstObl[Agr] [<num>:] NumOblique Plural[Pl_sh] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?          # plural allative derivations
+
+
+LEXICON NumOblique
+<obl>:нн[nn]
+<obl>:н[n]
+<obl>:мм[mm]
+
+LEXICON NumAttAbs
+цaI:цхьа #1
+шиъ:ши
+кхоъ:кхо #3
+пхиъ:пхи #5
+ялх:ялх 
+ворхІ:ворхІ 
+бархІ:бархІ
+исс:исс
+итт:итт #10
+цхьайтта:цхьайтта
+шийтта:шийтта 
+кхойтта:кхойтта #13
+пхийтта:пхийтта #15
+ялхитта:ялхитта
+вуьрхІитта:вуьрхІитта
+берхІитта:берхІитта
+ткъайоьсна:ткъайоьсна  
+ткъа:ткъа #20
+иъ:иъ[Agr] #4
+ейтта:ейтта[Agr] #14
+
+LEXICON NumAttObl
+цaI:цхьана #1
+шиъ:шина
+кхоъ:кхаа #3 
+пхиъ:пхеа #5
+ялх:ялх 
+ворхІ:ворхІ 
+бархІ:бархІ
+исс:исс
+итт:итт #10
+цхьайтта:цхьайтта
+шийтта:шийтта
+кхойтта:кхойтта #13
+пхийтта:пхийтта #15
+ялхитта:ялхитта
+вуьрхІитта:вуьрхІитта
+берхІитта:берхІитта
+ткъайоьсна:ткъайоьсна 
+ткъа:ткъа #20
+иъ:еа[Agr] #4
+ейтта:ейтта[Agr] #14
+
+LEXICON NumSubstAbs
+цaI 
+шиъ 
+кхоъ #3
+пхиъ #5
+ялх
+ворхІ
+бархІ
+исс
+итт #10
+цхьайтта
+шийтта
+кхойтта #13
+пхийтта #15
+ялхитта
+вуьрхІитта
+берхІитта
+ткъайоьсна
+ткъа #20
+ейтта[Agr] #14
+иъ[Agr] #4
+
+LEXICON NumSubstObl
+цaI:цхьа #1
+шиъ:ши
+кхоъ:кха #3 
+пхиъ:пхе #5
+ялх:ялх 
+ворхІ:ворхІ 
+бархІ:бархІ
+исс:исс
+итт:итт #10
+цхьайтта:цхьайтта
+шийтта:шийтта
+кхойтта:кхойтта #13
+пхийтта:пхийтта #15
+ялхитта:ялхитта
+вуьрхІитта:вуьрхІитта
+берхІитта:берхІитта
+ткъайоьсна:ткъайоьсна 
+ткъа:ткъа #20
+иъ:еа[Agr] #4
+ейтта:ейтта[Agr] #14
+
