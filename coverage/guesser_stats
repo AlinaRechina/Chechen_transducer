@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ $# -lt 1 ]] || [[ ! -e "$1" ]]; then
+	echo "usage: $(basename "$0") AN.guesser.hfst [TEXT...]" >&2
+	exit 1
+fi
+
+t="$1"
+shift
+
+all=$(wc -l "$@")
+#guessed=$(cat "$@" | hfst-guess -n 1 "$t" | grep -c '.') # empty line for unprocessed stems
+guessed=$(cat "$@" | hfst-guess -n 1 "$t") # empty line for unprocessed stems
+echo "Total words: $all"
+echo "Guessed words: $guessed"

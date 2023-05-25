@@ -1,6 +1,6 @@
-.DEFAULT_GOAL := che_analizer.hfst
+.DEFAULT_GOAL := che_analyzer.hfst
 
-che_analizer.hfst: che_generator.hfst
+che_analyzer.hfst: che_generator.hfst
 	hfst-invert $< -o $@
 che_generator.hfst: che_lexd.hfst che_twol.hfst
 	hfst-compose-intersect $^ -o $@

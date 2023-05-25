@@ -8,6 +8,7 @@ Sets
 		vowels = а е и у о ы;
 		liquids = л р;
 		truecons = б в г д ж з к м н п с т ф х ц ч ш щ ъ ь I;
+		consnoj = б в г д ж з к л м н п р с т ф х ц ч ш щ ъ ь I;
 		consonants = б в г д ж з к л м н п р с т ф х ц ч ш щ ъ ь I й;
 
 Rules
@@ -19,13 +20,13 @@ Rules
 %{obl%}:0 <=> vowel _ consonants;
 
 "и epenthesis between й and a consonant != й"
-%{obl%}:0 <=> й _ consonants-й:й;
+%{obl%}:0 <=> й:й _ consnoj;
 
 "и epenthesis between any consonant and й"
 %{obl%}:и <=> consonants _ й:й;
 
 "а epenthesis between consonant != й and another consonant !=й"
-%{obl%}:а <=> consonants-й _ consonants-й:й;
+%{obl%}:а <=> consnoj _ consnoj;
 
 "no vowel between vowel and any consonant"
 %{obllight%}:0 <=> vowel _ consonants;
@@ -37,8 +38,8 @@ Rules
 %{obllight%}:а <=> truecons _ truecons;
 
 "no epenthesis between a liquid and a consonant != й"
-%{obllight%}:0 <=> liquids _ consonants-й:й;
+%{obllight%}:0 <=> liquids _ consnoj;
 
 "no epenthesis between й and a consonant != й"
-%{obllight%}:0 <=> й:й _ consonants-й:й;
+%{obllight%}:0 <=> й:й _ consnoj;
 

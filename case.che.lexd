@@ -1,10 +1,12 @@
 LEXICON Case
 
+# Ergative
 <erg>:а[Pl_sh,erg_a]          
 <erg>:{obl}с[erg_s]                   
 <erg>:о[Adj_ch,erg_o]           
-<erg>:е                        
+<erg>:е       
 
+# Genitive
 <gen>:{obl}н[Pl_j,Num,Adj_u,gen] 
 
 # Dative
