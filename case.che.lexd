@@ -7,7 +7,7 @@ LEXICON Case
 <erg>:е       
 
 # Genitive
-<gen>:{obl}н[Pl_j,Num,Adj_u,gen,Noun_gen] 
+<gen>:{obl}н[Pl_j,Num,Adj_u,gen] 
 
 # Dative
 <dat>:на[Pl_sh,Num,Adj_un,dat]  

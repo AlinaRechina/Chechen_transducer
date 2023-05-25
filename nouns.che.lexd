@@ -1,7 +1,7 @@
 PATTERNS
 
 NounAbs [<n>:]
-NounGenComp [<n><obl>:] (Case[Noun_gen] | Case[comp])                                                                                    # Genitive + Comparative
+NounGenComp [<n><obl>:] (Case[gen] | Case[comp])                                                                                    # Genitive + Comparative
 NounDatLocInstr[dat_a] [<n><obl>:] Epent (Case[dat] | Case[loc])                                                                    # Dative + Locative, with epenthesis
 NounDatLocInstr[-dat_a] [<n><obl>:] (Case[dat] | Case[loc])                                                                         # Dative + Locative, without epenthesis
 NounDatLocInstr [<n><obl>:] (EpentIns)? Case[ins]                                                                                   # Instrumentalis
