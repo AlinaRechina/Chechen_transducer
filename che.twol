@@ -17,7 +17,7 @@ Rules
 %>:0 <=> _ ;
 
 "no vowel between vowel and any consonant"
-%{obl%}:0 <=> vowel _ consonants;
+%{obl%}:0 <=> vowels _ consonants;
 
 "и epenthesis between й and a consonant != й"
 %{obl%}:0 <=> й:й _ consnoj;
@@ -29,7 +29,7 @@ Rules
 %{obl%}:а <=> consnoj _ consnoj;
 
 "no vowel between vowel and any consonant"
-%{obllight%}:0 <=> vowel _ consonants;
+%{obllight%}:0 <=> vowels _ consonants;
 
 "и epenthesis between any consonant and й"
 %{obllight%}:и <=> consonants _ й:й;
