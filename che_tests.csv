@@ -29,6 +29,6 @@ analysis,form,mustpass,source,page,description
 пен<n><obl><pl><comp>,пенийл,pass,-,-,nouns
 пен<n><obl><pl><comp>,пенийла,pass,-,-,nouns
 пен<n><obl><pl><comp>,пенийлла,pass,-,-,nouns
-пен<n><obl><pl><comp>,пенел,doesn't work for some reason,Aliroyev,37,nouns
-пен<n><obl><pl><comp>,пенела,doesn't work for some reason,-,-,nouns
-пен<n><obl><pl><comp>,пенелла,doesn't work for some reason,-,-,nouns
+пен<n><obl><pl><comp>,пенел,pass,Aliroyev,37,nouns
+пен<n><obl><pl><comp>,пенела,pass,-,-,nouns
+пен<n><obl><pl><comp>,пенелла,pass,-,-,nouns
