@@ -1,7 +1,7 @@
 PATTERNS
 PossProSubst [<pro><poss>:] AdjCase[abs] #absolutive
-PossProSubst [<pro><poss>:] ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # singular oblique cases
-PossProSubst [<pro><poss>:] AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derivated allative cases                          
+PossProSubst [<pro><poss>:] ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # sӀngular Oblique cases
+PossProSubst [<pro><poss>:] AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derӀvated allatӀve cases                          
 
 PossProSubst [<pro><poss>:] (AdjOblique[ch] Plural[Pl_j] Case[Pl_j] | AdjOblique[u] Plural[Pl_sh] Case[Pl_sh]) 
 PossProSubst [<pro><poss>:] AdjOblique[u] Plural[Pl_sh] Case[Pl_sh,all_der] (AllDer | (AllDer1 AllDer2))?            

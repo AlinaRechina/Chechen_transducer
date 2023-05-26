@@ -1,66 +1,66 @@
 PATTERNS
 
-# PERSONAL PRONOUNS INFLECTION
+# PERSONAL PRONOUNS ӀNFLECTӀON
 PersPro[abs] [<pro>:]
 PersPro[gen] [<pro>:] Case[gen]
 PersPro[erg] [<pro>:] Case[erg_o]
 PersPro[dat] [<pro>:] Case[dat]
 PersPro[loc] [<pro>:] Case[loc]
-PersPro[ins] [<pro>:] Case[ins]
+PersPro[Ins] [<pro>:] Case[Ins]
 PersPro[comp] [<pro>:] Case[comp-comp_la]
 PersPro[all] [<pro>:] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
 
 # 3d person
 Pers3Pro[abs] [<pro>:]
-Pers3Pro[obl] [<pro>:] (Case[erg_o] | Case[comp])                                     # no oblique extension
-Pers3Pro[obl] [<pro>:] Pers3ProOblique[n] (Case[dat] | Case[loc])                       # -н- oblique extension
-Pers3Pro[obl] [<pro>:] Pers3ProOblique[pn] (Case[Adj_upn] | Case[gen])                      # -ьн- oblique extension
-Pers3Pro[obl] [<pro>:] Pers3ProOblique[pn] Case[all_ga] (AllDer | (AllDer1 AllDer2))           # allative derivations
+Pers3Pro[obl] [<pro>:] (Case[erg_o] | Case[comp])                                     # no Oblique extensӀon
+Pers3Pro[obl] [<pro>:] Pers3ProOblique[n] (Case[dat] | Case[loc])                       # -н- Oblique extensӀon
+Pers3Pro[obl] [<pro>:] Pers3ProOblique[pn] (Case[Adj_upn] | Case[gen])                      # -ьн- Oblique extensӀon
+Pers3Pro[obl] [<pro>:] Pers3ProOblique[pn] Case[all_ga] (AllDer | (AllDer1 AllDer2))           # allatӀve derӀvatӀons
 
 LEXICON PersPro  # Personal pronouns 
 
-со[abs,loc,comp]   # I
-со:соь[all,ins]
+со[abs,loc,comp]   # Ӏ
+со:соь[all,Ins]
 со:са[gen]
 со:су[dat]
 со:ас[erg]
 
-тхо[abs,loc,comp]  # we (exclusive)
-тхо:тхоь[all,ins]
+тхо[abs,loc,comp]  # we (exclusӀve)
+тхо:тхоь[all,Ins]
 тхо:тха[gen]
 тхо:тху[dat]
 тхо:ох[erg]
 
-вай[abs,loc,comp,all,ins,gen,dat,erg]  # we (inclusive)
+вай[abs,loc,comp,all,Ins,gen,dat,erg]  # we (ӀnclusӀve)
 
 хьо[abs,loc,comp]  # you (sg)
-хьо:хьоь[all,ins]
+хьо:хьоь[all,Ins]
 хьо:хьа[gen]
 хьо:хьу[dat]
 хьо:ахь[erg]
 
 шу[abs,loc,comp,gen,dat]  # you (pl)
-шу:шуь[all,ins]
+шу:шуь[all,Ins]
 шу:аш[erg]
 
 уьзаш[abs] # they
 уьзаш:цер[gen]
 уьзаш:цар[comp,dat,erg,loc]
 уьзаш:царр[comp]
-уьзаш:цаьр[all,ins]
+уьзаш:цаьр[all,Ins]
 
 уьш[abs] # they
 уьш:ацер[gen]
 уьш:ацар[comp,dat,erg,loc]
 уьш:ацарр[comp]
-уьш:ацаьр[all,ins]
+уьш:ацаьр[all,Ins]
 
 LEXICON Pers3Pro
-# operates like adjectives (but a little differen genitive)
+# operates lӀke adjectӀves (but a lӀttle dӀfferen genӀtӀve)
 иза[abs]
-иза:цу[obl] # also attributive use (his)
-и[abs]      # also directive "that", inflection system is the same
-и:оцу[obl]  # also attributive use (his)
+иза:цу[obl] # also attributive use (hӀs)
+и[abs]      # also dӀrectӀve "that", ӀnflectӀon system Ӏs the same
+и:оцу[obl]  # also attributive use (hӀs)
 
 LEXICON Pers3ProOblique
 <obl>:ьн[pn]

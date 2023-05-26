@@ -1,2 +1,3 @@
 *.hfst
 *hfstol
+coverage/corpus/ce_wiki_full.txt

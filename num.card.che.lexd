@@ -1,24 +1,24 @@
 PATTERNS
-(NumAttAbs[-Agr] | NumAttObl[-Agr]) [<num>:]          #no inflection
-NounClass (NumAttAbs[Agr] | NumAttObl[Agr]) [<num>:]  #agreement + no inflection
+(NumAttAbs[-Agr] | NumAttObl[-Agr]) [<num>:]          #no ӀnflectӀon
+NounClass (NumAttAbs[Agr] | NumAttObl[Agr]) [<num>:]  #agreement + no ӀnflectӀon
 
-NumSubstAbs[-Agr] [<num>:]                                                                                     # absolutive
-NumSubstAbs[-Agr] [<num>:] NumOblique[mm] Case[Num_erg]                                                        # ergative
+NumSubstAbs[-Agr] [<num>:]                                                                                     # absolutӀve
+NumSubstAbs[-Agr] [<num>:] NumOblique[mm] Case[Num_erg]                                                        # ergatӀve
 NumSubstObl[-Agr] [<num>:] NumOblique[nn] Case[Num]
 NumSubstObl[-Agr] [<num>:] NumOblique[n] Case[Num_n]
-                                                                                                               # various cases, not ergative
+                                                                                                               # varӀous cases, not ergatӀve
 NumSubstObl[-Agr] [<num>:] NumOblique ((Plural[Pl_j] Case[Pl_j]) | (Plural[Pl_sh] Case[Pl_sh]))                # plural  
-NumSubstObl[-Agr] [<num>:] NumOblique Case[all_ga] (AllDer | (AllDer1 AllDer2))?                               # singular allative derivations
-NumSubstObl[-Agr] [<num>:] NumOblique Plural[Pl_sh] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?          # plural allative derivations
+NumSubstObl[-Agr] [<num>:] NumOblique Case[all_ga] (AllDer | (AllDer1 AllDer2))?                               # sӀngular allatӀve derӀvatӀons
+NumSubstObl[-Agr] [<num>:] NumOblique Plural[Pl_sh] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?          # plural allatӀve derӀvatӀons
 
-# whith class agreement (4, 14)
-NounClass NumSubstAbs[Agr] [<num>:]                                                                            # absolutive
-NounClass NumSubstAbs[Agr] [<num>:] NumOblique[mm] Case[erg_a]                                                 # ergative
+# whӀth class agreement (4, 14)
+NounClass NumSubstAbs[Agr] [<num>:]                                                                            # absolutӀve
+NounClass NumSubstAbs[Agr] [<num>:] NumOblique[mm] Case[erg_a]                                                 # ergatӀve
 NounClass NumSubstObl[Agr] [<num>:] NumOblique[nn] Case[Num]
-NounClass NumSubstObl[Agr] [<num>:] NumOblique[n] Case[Num_n]                                                           # various cases, not ergative
+NounClass NumSubstObl[Agr] [<num>:] NumOblique[n] Case[Num_n]                                                           # varӀous cases, not ergatӀve
 NounClass NumSubstObl[Agr] [<num>:] NumOblique ((Plural[Pl_j] Case[Pl_j]) | (Plural[Pl_sh] Case[Pl_sh]))                # plural  
-NounClass NumSubstObl[Agr] [<num>:] NumOblique Case[all_ga] (AllDer | (AllDer1 AllDer2))?                               # singular allative derivations
-NounClass NumSubstObl[Agr] [<num>:] NumOblique Plural[Pl_sh] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?          # plural allative derivations
+NounClass NumSubstObl[Agr] [<num>:] NumOblique Case[all_ga] (AllDer | (AllDer1 AllDer2))?                               # sӀngular allatӀve derӀvatӀons
+NounClass NumSubstObl[Agr] [<num>:] NumOblique Plural[Pl_sh] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?          # plural allatӀve derӀvatӀons
 
 
 LEXICON NumOblique
@@ -27,7 +27,7 @@ LEXICON NumOblique
 <obl>:мм[mm]
 
 LEXICON NumAttAbs
-цaI:цхьа #1
+цaӀ:цхьа #1
 шиъ:ши
 кхоъ:кхо #3
 пхиъ:пхи #5
@@ -49,7 +49,7 @@ LEXICON NumAttAbs
 ейтта:ейтта[Agr] #14
 
 LEXICON NumAttObl
-цaI:цхьана #1
+цaӀ:цхьана #1
 шиъ:шина
 кхоъ:кхаа #3 
 пхиъ:пхеа #5
@@ -71,7 +71,7 @@ LEXICON NumAttObl
 ейтта:ейтта[Agr] #14
 
 LEXICON NumSubstAbs
-цaI 
+цaӀ 
 шиъ 
 кхоъ #3
 пхиъ #5
@@ -93,7 +93,7 @@ LEXICON NumSubstAbs
 иъ[Agr] #4
 
 LEXICON NumSubstObl
-цaI:цхьа #1
+цaӀ:цхьа #1
 шиъ:ши
 кхоъ:кха #3 
 пхиъ:пхе #5

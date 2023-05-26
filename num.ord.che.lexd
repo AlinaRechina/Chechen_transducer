@@ -1,8 +1,8 @@
 PATTERNS
-OrdNum[-Agr] [<num>:] OrdSuff #absolutive
+OrdNum[-Agr] [<num>:] OrdSuff #absolutӀve
 
-OrdNum[-Agr] [<num>:] OrdSuff ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # singular oblique cases
-OrdNum[-Agr] [<num>:] OrdSuff AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derivated allative cases                          
+OrdNum[-Agr] [<num>:] OrdSuff ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # sӀngular Oblique cases
+OrdNum[-Agr] [<num>:] OrdSuff AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derӀvated allatӀve cases                          
 
 OrdNum[-Agr] [<num>:] OrdSuff (AdjOblique[ch] Plural[Pl_j] Case[Pl_j] | AdjOblique[u] Plural[Pl_sh] Case[Pl_sh])                                                                            # plural -чу- 
 OrdNum[-Agr] [<num>:] OrdSuff AdjOblique[u] Plural[Pl_sh] Case[Pl_sh,all_der] (AllDer | (AllDer1 AllDer2))?                                                                                 # plural -чу-
@@ -12,13 +12,13 @@ OrdNum[-Agr] [<num>:] OrdSuff ((AdjOblique[pl_a]  Case[Adj_u]) | (AdjOblique[pl_
 OrdNum[-Agr] [<num>:] OrdSuff AdjOblique[u]
 
 
-#same patterns, but with CLASS AGREEMENT
+#same patterns, but wӀth CLASS AGREEMENT
 #substantive use
 
-NounClass OrdNum[Agr] [<num>:] OrdSuff #absolutive
+NounClass OrdNum[Agr] [<num>:] OrdSuff #absolutӀve
 
-NounClass OrdNum[Agr] [<num>:] OrdSuff ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # singular oblique cases
-NounClass OrdNum[Agr] [<num>:] OrdSuff AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derivated allative cases
+NounClass OrdNum[Agr] [<num>:] OrdSuff ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # sӀngular Oblique cases
+NounClass OrdNum[Agr] [<num>:] OrdSuff AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derӀvated allatӀve cases
 
 NounClass OrdNum[Agr] [<num>:] OrdSuff (AdjOblique[ch] Plural[Pl_j] Case[Pl_j] | AdjOblique[u] Plural[Pl_sh] Case[Pl_sh])                                                         # plural -чу- 
 NounClass OrdNum[Agr] [<num>:] OrdSuff AdjOblique[u] Plural[Pl_sh] Case[Pl_sh,all_der] (AllDer | (AllDer1 AllDer2))?                                                              # plural -чу-
@@ -29,8 +29,8 @@ NounClass OrdNum[Agr] [<num>:] OrdSuff AdjOblique[u]
 
 
 LEXICON OrdSuff
-<ordinal>:лгIа   # like "second"
-<ordinal>:злагIа # like "secondary"
+<ordӀnal>:лгӀа   # lӀke "second"
+<ordӀnal>:злагӀа # lӀke "secondary"
 
 LEXICON OrdNum
 шиъ:шо    #2
@@ -40,7 +40,7 @@ LEXICON OrdNum
 ялх:ялха       # Jakovlev p. 73
 ворхІ:ворхІа 
 бархІ:бархІа   # Jakovlev 1960
-борхІ:борхІа   # Maciev 1961
+борхІ:борхІа   # MacӀev 1961
 исс:уьсса
 итт:уьтта #10
 цхьайтта:цхьайтта

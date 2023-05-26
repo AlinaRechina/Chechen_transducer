@@ -1,11 +1,11 @@
 PATTERNS
-NounPl[a_epent] [<n><obl>:] Epent Plural[Pl_sh] # Absolutive of most decl. types with epenthesis
-NounPl[-a_epent] [<n><obl>:] Plural[Pl_sh]      # Absolutive of most decl. types without epenthesis
-NounPl[fourth_type] [<n><obl>:] Plural[Pl_j]    # Absolutive of the fourth decl. type
+NounPl[a_epent] [<n><obl>:] Epent Plural[Pl_sh] # AbsolutӀve of most decl. types wӀth epenthesӀs
+NounPl[-a_epent] [<n><obl>:] Plural[Pl_sh]      # AbsolutӀve of most decl. types wӀthout epenthesӀs
+NounPl[fourth_type] [<n><obl>:] Plural[Pl_j]    # AbsolutӀve of the fourth decl. type
 
-NounPl [<n><obl>:] Plural[Pl_sh] Case[Pl_sh]              # Dative, Ergative, Instrumentalis, Allative
-NounPl [<n><obl>:] Plural[Pl_j] Case[Pl_j]                # Genitive, Comparative and Locative with -(и)й- plural suffix
-NounPl[-fourth_type] [<n><obl>:] Plural[Pl_e] Case[Pl_e]  # Comparative and Locative with -е- plural suffix
+NounPl [<n><obl>:] Plural[Pl_sh] Case[Pl_sh]              # DatӀve, ErgatӀve, InstrumentalӀs, AllatӀve
+NounPl [<n><obl>:] Plural[Pl_j] Case[Pl_j]                # GenӀtӀve, ComparatӀve and LocatӀve wӀth -(и)й- plural suffӀx
+NounPl[-fourth_type] [<n><obl>:] Plural[Pl_e] Case[Pl_e]  # ComparatӀve and LocatӀve wӀth -е- plural suffӀx
 
 LEXICON NounPl
 абажур:абажур[a_epent]
@@ -468,7 +468,7 @@ aйгӀap:айгӀар
 гарс:гарс[a_epent]
 гастроль:гастрол[a_epent]
 гата:гатан[a_epent]
-гaxIap:гахӀар
+гaxӀap:гахӀар
 гаъ:гаьън[a_epent]
 гаьззу:гаьззун[a_epent]
 гаьзло:гаьзло[fourth_type]
@@ -780,7 +780,7 @@ aйгӀap:айгӀар
 дуьхьало:дуьхьалон[a_epent]
 дуьхьиг:дуьхьиг[a_epent]
 дуьхьлоца:дуьхьлоцан[a_epent]
-дIа:дӀаьмн[a_epent]
+дӀа:дӀаьмн[a_epent]
 дӀаьндарг:дӀаьндарг[a_epent]
 дӀовш:дӀовш[a_epent]
 дӀуьтӀа:дӀуьтӀан[a_epent]
@@ -852,7 +852,7 @@ aйгӀap:айгӀар
 жӀолам:жӀолам[a_epent]
 жӀонка:жӀонк[a_epent]
 жӀормак:жӀормак[a_epent]
-жIу:ган[a_epent]
+жӀу:ган[a_epent]
 за:зан[a_epent]
 забастовка:забастовк[a_epent]
 забба:ре
@@ -930,15 +930,15 @@ aйгӀap:айгӀар
 зурманча:зурманч[a_epent]
 зуьгалг:зуьгалг[a_epent]
 зуькар:зуькар
-зIа:разукъ[a_epent]
-зIе:зIен[a_epent]
+зӀа:разукъ[a_epent]
+зӀе:зӀен[a_epent]
 зӀенар:зӀенар
 зӀийдиг:зӀийдиг[a_epent]
 зӀиймарг:зӀиймарг[a_epent]
 зӀок:зӀакар
 зӀокберг:зӀокберг[a_epent]
-зIо:ьмалг[a_epent]
-зIу:ган[a_epent]
+зӀо:ьмалг[a_epent]
+зӀу:ган[a_epent]
 идеалист:идеалист[a_epent]
 идей:идей
 идеолог:идеолог[a_epent]
@@ -1431,7 +1431,7 @@ aйгӀap:айгӀар
 кӀир:кӀир[a_epent]
 кӀира:кӀиран[a_epent]
 кӀиранде:кӀирандено
-кӀотархо:кIотархо[fourth_type]
+кӀотархо:кӀотархо[fourth_type]
 кӀозйо:хург[a_epent]
 кӀомар:кӀомар
 кӀомсар:кӀомсар
@@ -1622,7 +1622,7 @@ aйгӀap:айгӀар
 мекх:мекх[a_epent]
 мекха:мекхан[a_epent]
 мекхало:мекхало[fourth_type]
-мелӀун:мелIун[a_epent]
+мелӀун:мелӀун[a_epent]
 меньшевик:меньшевик[a_epent]
 мергӀад:мергӀад[a_epent]
 мерз:мерз[a_epent]
@@ -1782,7 +1782,7 @@ aйгӀap:айгӀар
 новатор:новатор
 новкъарло:новкъарлон[a_epent]
 ног:ногн[a_epent]
-ногI:ногӀи[fourth_type]
+ногӀ:ногӀи[fourth_type]
 ной:ной
 ноль:нол[a_epent]
 номер:номер
@@ -2634,18 +2634,18 @@ copгӀa:copгӀaн[a_epent]
 хьуьнар:хьуьнар
 хӀилла:хӀиллан[a_epent]
 хӀири:хӀири[fourth_type]
-xIo:ран[a_epent]
-xIoa:хӀо[a_epent]
-хӀож:xIaжар
+xӀo:ран[a_epent]
+xӀoa:хӀо[a_epent]
+хӀож:xӀaжар
 хӀоллам:ллам[a_epent]
 хӀонц:хӀонц[a_epent]
 хӀорд:хӀорд[a_epent]
 хӀотторхо:хӀотторхо[fourth_type]
 xly:хӀу
-xIyгӀap:хӀугӀар
+xӀyгӀap:хӀугӀар
 хӀуй:хӀуйн[a_epent]
 хӀургон:хӀургон[a_epent]
-хӀусам:xIycaм[a_epent]
+хӀусам:xӀycaм[a_epent]
 хӀусамхо:хӀусамхо[fourth_type]
 хӀуьрлаӀа:хӀуьрлаӀан[a_epent]
 хӀуьттаре:хӀуьттарен[a_epent]
@@ -2869,20 +2869,20 @@ xIyгӀap:хӀугӀар
 яхь:яххь[a_epent]
 ячейка:ячейк[a_epent]
 яьшка:яьшкан[a_epent]
-яьIна:яьIн[a_epent]
+яьӀна:яьӀн[a_epent]
 Ӏа:Ӏаьн[a_epent]
-Iо:Iод[a_epent]
+Ӏо:Ӏод[a_epent]
 Ӏайг:Ӏайг[a_epent]
 Ӏала:мат[a_epent]
-Iа:Iан[a_epent]
+Ӏа:Ӏан[a_epent]
 Ӏам:Ӏаьмн[a_epent]
 ӀаммагӀа:ӀаммагӀн[a_epent]
 ӀандагӀа:ӀандагӀ[a_epent]
 Ӏарби:Ӏарби[fourth_type]
 Ӏарч:Ӏаьрч[a_epent]
 Ӏарш:Ӏаьрш[a_epent]
-Iacпap:Iacпар
-ӀаӀи:IaIe
+Ӏacпap:Ӏacпар
+ӀаӀи:ӀaӀe
 Ӏилма:Ӏилман[a_epent]
 Ӏин:Ӏанн[a_epent]
 ӀиндагӀ:ӀиндагӀ[a_epent]

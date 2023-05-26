@@ -1,8 +1,8 @@
 PATTERNS
-NounFourthDeclType [<n>:] #absolutive
+NounFourthDeclType [<n>:] #absolutӀve
 
-NounFourthDeclType [<n>:] ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]))   # singular oblique cases
-NounFourthDeclType [<n>:] AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derivated allative cases                          
+NounFourthDeclType [<n>:] ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]))   # sӀngular Oblique cases
+NounFourthDeclType [<n>:] AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derӀvated allatӀve cases                          
 
 LEXICON NounFourthDeclType
 абазо
