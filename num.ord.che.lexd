@@ -1,5 +1,5 @@
 PATTERNS
-OrdNum[-Agr] [<num>:] OrdSuff #absolutӀve
+OrdNum[-Agr] [<num>:] OrdSuff #absolutive
 
 OrdNum[-Agr] [<num>:] OrdSuff ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # sӀngular Oblique cases
 OrdNum[-Agr] [<num>:] OrdSuff AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derӀvated allatӀve cases                          
@@ -12,10 +12,10 @@ OrdNum[-Agr] [<num>:] OrdSuff ((AdjOblique[pl_a]  Case[Adj_u]) | (AdjOblique[pl_
 OrdNum[-Agr] [<num>:] OrdSuff AdjOblique[u]
 
 
-#same patterns, but wӀth CLASS AGREEMENT
+#same patterns, but with CLASS AGREEMENT
 #substantive use
 
-NounClass OrdNum[Agr] [<num>:] OrdSuff #absolutӀve
+NounClass OrdNum[Agr] [<num>:] OrdSuff #absolutive
 
 NounClass OrdNum[Agr] [<num>:] OrdSuff ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # sӀngular Oblique cases
 NounClass OrdNum[Agr] [<num>:] OrdSuff AdjOblique[upn] Case[Pro_all] (AllDer | (AllDer1 AllDer2)) # derӀvated allatӀve cases

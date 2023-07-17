@@ -1,0 +1,50 @@
+PATTERNS
+ReflErgSg12 [<obl>:] Case[erg_a]
+ReflOblSg12 [<obl>:] (Case[gen] | Case[dat] | Case[ins] | Case[loc] | Case[comp-comp_la])
+ReflOblSg12 [<obl>:] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
+
+ReflPl2[gen] [<obl>:] Case[gen]
+ReflPl2[j] [<obl>:] (Case[gen] | Case[dat] | Case[ins] | Case[loc] | Case[comp-comp_la])
+ReflPl2[j] [<obl>:] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
+ReflPl2[psh] ([<obl>:] Case[dat] | [<obl>:] Case[ins])?
+ReflPl2[psh] [<obl>:] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?
+
+ReflPl3[gen] [<obl>:] Case[gen]
+ReflPl3[psh] ([<obl>:] Case[dat])?
+ReflPl3[j] [<obl>:] (Case[ins] | Case[loc] | Case[comp-comp_la])
+ReflPl3[j] [<obl>:] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
+
+ReflPl1[gen] [<obl>:] Case[gen]
+ReflPl1[j] [<obl>:] (Case[loc] | Case[comp-comp_la])
+ReflPl1[psh] ([<obl>:] Case[dat] | [<obl>:] Case[ins])?
+ReflPl1[psh] [<obl>:] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?
+
+LEXICON ReflErgSg12
+со<refl>:сай
+хьо<refl>:хьай
+иза<refl>:ш
+
+LEXICON ReflOblSg12
+со<refl>:айс
+хьо<refl>:айхь
+иза<refl>:ше
+
+LEXICON ReflPl2
+шу<refl>:шай[j]
+шу<refl>:шаьш[psh]
+шу<refl>:шеш[gen]
+
+LEXICON ReflPl3
+уьш<refl>:шаьш[psh]
+уьш<refl>:шай[j]
+уьш<refl>:шеш[gen]
+
+LEXICON ReflPl1
+тхо<refl>:тхаьш[psh]    #inclusive
+тхо<refl>:тхeш[gen]
+тхо<refl>:тхайш[j]
+вай<refl>:ваьш[psh]     #exclusive
+вай<refl>:вeш[gen]
+вай<refl>:вайш[j]
+
+

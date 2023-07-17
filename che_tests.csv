@@ -32,3 +32,9 @@ analysis,form,mustpass,source,page,description
 пен<n><obl><pl><comp>,пенел,pass,Aliroyev,37,nouns
 пен<n><obl><pl><comp>,пенела,pass,-,-,nouns
 пен<n><obl><pl><comp>,пенелла,pass,-,-,nouns
+уьш<refl>,шаьш,pass,Yakovlev,96,reflexive pronouns
+шу<refl>,шаьш,pass,Yakovlev,96,reflexive pronouns
+иза<refl><obl><ins>,шеца,pass,Desheriev,-,reflexive pronouns
+шу<refl><obl><all><across>,шаьшкахула,pass,Yakovlev,96,reflexive pronouns
+шу<refl><obl><all><across>,шайгахула,pass,Yakovlev,96,reflexive pronouns
+уьш<refl><obl><all><across>,шайгахула,pass,Yakovlev,96,reflexive pronouns

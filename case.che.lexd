@@ -13,7 +13,7 @@ LEXICON Case
 <dat>:на[Pl_sh,Num,Adj_un,dat]  
 
 # Instrumentalis
-<Ins>:ца[Pl_sh,Num_n,Adj_upn,Ins] 
+<ins>:ца[Pl_sh,Num_n,Adj_upn,ins] 
 
 
 # вещественный = locative
