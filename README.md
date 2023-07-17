@@ -47,6 +47,25 @@ Transducer for Chechen lanuage made with twol and lexd
 **PossProSubst** = forms of the possessive pronouns for substantive use
 - [pl] = forms that attach plural inflections (those forms that lack this tag only have singular inflections).
 
+**ReflErgSg12** = Ergative stems for reflexive pronouns of first and second persons
+
+**ReflOblSg12** = non-Ergative oblique stems for reflexive pronouns of first and second persons
+
+**ReflPl1** = oblique stems for plural first person reflexive pronouns
+- [gen] = genitive stems
+- [psh] = -ьш ending stems
+- [j] = -йш ending stems
+  
+**ReflPl2** = oblique stems for plural second person reflexive pronouns
+- [gen] = genitive stems
+- [psh] = -ьш ending stems
+- [j] = -й ending stems
+
+**ReflPl3** = oblique stems for plural third person reflexive pronouns
+- [gen] = genitive stems
+- [psh] = -ьш ending stems
+- [j] = -й ending stems
+
 **AdjCase** = endings that are absent in noun’s paradigms, but present in adjective’s (and possessive pronoun’s) paradigms
 - [abs] = adjective’s singular Absolutive endings
 - [plabs] = adjective’s plural Absolutive endings
