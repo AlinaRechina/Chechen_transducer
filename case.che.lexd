@@ -18,7 +18,7 @@ LEXICON Case
 
 # вещественный = locative
 <loc>:{obllight}х[Pl_e,Pl_j,Num,Adj_u,loc]     
-<loc>:{obllight}ха[Pl_e,Pl_j,Num,Adj_u,loc]   # Jakovlev 1960: derӀvated form
+<loc>:{obllight}ха[Pl_e,Pl_j,Num,Adj_u,loc]   # Jakovlev 1960: derivated form
 
 # местный = allative
 <all>:га[all_der,Num_n,Adj_upn,all_ga]

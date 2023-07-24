@@ -1,0 +1,47 @@
+PATTERNS
+DemonstrAdvProAbsSubst [<pro><poss>:] AdjCase[abs] #absolutive
+DemonstrProObl [<obl>:] Case[erg_o]
+DemonstrProObl ProOblique[upn] Case[gen]
+DemonstrProObl ProOblique[u] Case[comp-comp_la]
+DemonstrProObl ProOblique[un] (Case[dat] | Case[ins] | Case[loc])
+DemonstrProObl ProOblique[un] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
+
+DemonstrAdvProObl ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # singular Oblique cases
+DemonstrAdvProObl AdjOblique[upn] Case[all_ga] (AllDer | (AllDer1 AllDer2))                                                                         # derived allative cases 
+
+# Attributive use
+DemonstrProAbsAttr
+DemonstrProObl ProOblique[u]
+
+LEXICON DemonstrProAbsAttr
+хӀара
+я
+
+LEXICON DemonstrProAbsSubst
+хӀара:хӀара
+я:яра
+
+LEXICON DemonstrProObl
+хӀара:хӀокх
+я:йокх
+
+LEXICON ProOblique
+<obl>:у[u]
+<obl>:ун[un]
+<obl>:уьн[upn]
+
+# Склоняются совсем как прилагательные
+LEXICON DemonstrAdvProAbsAttr
+дӀара
+хьуьллара
+цигара
+кхузара
+
+LEXICON DemonstrAdvProAbsSubst
+дӀара:дӀара
+хьуьллара:хьуьллар
+цигара:цигар
+кхузара:кхузар
+
+LEXICON DemonstrAdvProObl
+

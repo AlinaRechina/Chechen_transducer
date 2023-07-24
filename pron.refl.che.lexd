@@ -20,31 +20,31 @@ ReflPl1[psh] ([<obl>:] Case[dat] | [<obl>:] Case[ins])?
 ReflPl1[psh] [<obl>:] Case[all_der,Pl_sh] (AllDer | (AllDer1 AllDer2))?
 
 LEXICON ReflErgSg12
-со<refl>:сай
-хьо<refl>:хьай
-иза<refl>:ш
+со<pro><refl>:сай
+хьо<pro><refl>:хьай
+иза<pro><refl>:ш
 
 LEXICON ReflOblSg12
-со<refl>:айс
-хьо<refl>:айхь
-иза<refl>:ше
+со<pro><refl>:айс
+хьо<pro><refl>:айхь
+иза<pro><refl>:ше
 
 LEXICON ReflPl2
-шу<refl>:шай[j]
-шу<refl>:шаьш[psh]
-шу<refl>:шеш[gen]
+шу<pro><refl>:шай[j]
+шу<pro><refl>:шаьш[psh]
+шу<pro><refl>:шеш[gen]
 
 LEXICON ReflPl3
-уьш<refl>:шаьш[psh]
-уьш<refl>:шай[j]
-уьш<refl>:шеш[gen]
+уьш<pro><refl>:шаьш[psh]
+уьш<pro><refl>:шай[j]
+уьш<pro><refl>:шеш[gen]
 
 LEXICON ReflPl1
-тхо<refl>:тхаьш[psh]    #inclusive
-тхо<refl>:тхeш[gen]
-тхо<refl>:тхайш[j]
-вай<refl>:ваьш[psh]     #exclusive
-вай<refl>:вeш[gen]
-вай<refl>:вайш[j]
+тхо<pro><refl>:тхаьш[psh]    #inclusive
+тхо<pro><refl>:тхeш[gen]
+тхо<pro><refl>:тхайш[j]
+вай<pro><refl>:ваьш[psh]     #exclusive
+вай<pro><refl>:вeш[gen]
+вай<pro><refl>:вайш[j]
 
 
