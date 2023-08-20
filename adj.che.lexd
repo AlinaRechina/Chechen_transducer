@@ -6,7 +6,7 @@ AdjOblForms[-Agr] [<adj>:] ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[A
 AdjOblForms[-Agr] [<adj>:] AdjOblique[upn] Case[all_ga] (AllDer | (AllDer1 AllDer2))                                                                         # derived allative cases                  
 
 AdjOblForms[-Agr] [<adj>:] (AdjOblique[ch] Plural[Pl_j] Case[Pl_j] | AdjOblique[u] Plural[Pl_sh] Case[Pl_sh])                 # plural -чу-   
-AdjOblForms[-Agr] [<adj>:] AdjOblique[u] Plural[Pl_sh] Case[Pl_sh,all_der] (AllDer | (AllDer1 AllDer2))?                      # plural -чу- AllatӀve derӀvatӀves
+AdjOblForms[-Agr] [<adj>:] AdjOblique[u] Plural[Pl_sh] Case[Pl_sh,all_der] (AllDer | (AllDer1 AllDer2))?                      # plural -чу- Allative derivatives
 AdjOblForms[-Agr] [<adj>:] ((AdjOblique[pl_a]  (Case[Adj_u,-loc,-gen] | Case[Adj_un])) | (AdjOblique[pl_ap] (Case[Adj_upn] | (Case[all_ga] (AllDer | (AllDer1 AllDer2))))))     # plural -чар-, -чер-, -чаьр-
 AdjOblForms[-Agr] [<adj>:] AdjOblique[pl_a] Epent Case[loc]
 AdjOblForms[-Agr] [<adj>:] AdjOblique[pl_e] Case[gen]
@@ -156,7 +156,6 @@ LEXICON AdjAttrAbs
 директорски
 буру
 байракхн
-кхузара
 мацахлеран
 шайнан
 сакхте
@@ -2002,7 +2001,6 @@ LEXICON AdjAttrAbs
 кӀорнин
 йовха
 оперни
-цигара
 кхийра
 кесарн
 къилберан
@@ -3017,7 +3015,6 @@ LEXICON AdjOblForms
 кхераме:кхераме
 кхетаме:кхетаме
 кхийра:кхийра
-кхузара:кхузар
 къeпе:къeпе
 къeра:къeра
 къийсаме:къийсаме
@@ -3142,7 +3139,6 @@ LEXICON AdjOblForms
 хьомсара:хьомсар
 хьуьнаре:хьуьнаре
 хӀинцалера:хӀинцалер
-цигара:цигар
 цхьалха:цхьалха
 цӀакалера:цӀакалер
 цӀарула-цӀен:цӀарула-цӀе

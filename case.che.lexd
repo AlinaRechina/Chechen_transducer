@@ -28,10 +28,10 @@ LEXICON Case
 
 # сравнительный = comparative
 <comp>:{obl}л[Pl_j,Pl_e,Num,Adj_u,comp] 
-<comp>:{obl}ла[Pl_j,Pl_e,Num,comp,comp_la]         # Jakovlev 1960: derivated form
-<comp>:{obl}лла[Pl_j,Pl_e,Num,Adj_u,comp]  	  # Jakovlev 1960: derivated form
+<comp>:{obl}ла[Pl_j,Pl_e,Num,comp,comp_la]    # Jakovlev 1960: derivated form
+<comp>:{obl}лла[Pl_j,Pl_e,Num,Adj_u,comp]  	  # Jakovlev 1960: derivated form 
 
-LEXICON AllDer # case glosses correspond to Nichols 1994
+LEXICON AllDer # case glosses correspond to                                                                   Nichols 1994
 <location>:хь
 <direction>:хьа
 <source>:{obl}ра       

@@ -1,17 +1,38 @@
 PATTERNS
-DemonstrAdvProAbsSubst [<pro><poss>:] AdjCase[abs] #absolutive
-DemonstrProObl [<obl>:] Case[erg_o]
-DemonstrProObl ProOblique[upn] Case[gen]
-DemonstrProObl ProOblique[u] Case[comp-comp_la]
-DemonstrProObl ProOblique[un] (Case[dat] | Case[ins] | Case[loc])
-DemonstrProObl ProOblique[un] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
+# Singular
+DemonstrProObl [<pro><demonstr><obl>:] Case[erg_o]
+DemonstrProObl [<pro><demonstr>:] ProOblique[upn] Case[gen]
+DemonstrProObl [<pro><demonstr>:] ProOblique[u] Case[comp-comp_la]
+DemonstrProObl [<pro><demonstr>:] ProOblique[un] (Case[dat] | Case[ins] | Case[loc])
+DemonstrProObl [<pro><demonstr>:] ProOblique[un] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
 
-DemonstrAdvProObl ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # singular Oblique cases
-DemonstrAdvProObl AdjOblique[upn] Case[all_ga] (AllDer | (AllDer1 AllDer2))                                                                         # derived allative cases 
+# Plural
+DemonstrProPl [<pro><demonstr><obl>:]Plural[Pl_sh]
+DemonstrProObl [<pro><demonstr>:] ProOblique[er] Case[gen]
+DemonstrProObl [<pro><demonstr>:] ProOblique[ar] (Case[dat] | Case[comp-comp_la] | Case[erg_a] | Case[loc])
+DemonstrProObl [<pro><demonstr>:] ProOblique[apr] Case[ins]
+DemonstrProObl [<pro><demonstr>:] ProOblique[apr] Case[all_ga] (AllDer | (AllDer1 AllDer2))?
 
 # Attributive use
-DemonstrProAbsAttr
-DemonstrProObl ProOblique[u]
+DemonstrProAbsAttr [<pro><demonstr>:]
+DemonstrProObl [<pro><demonstr>:] ProOblique[u]
+
+# Singular (adverbal pronouns, incline like adjectives)
+DemonstrAdvProObl [<pro><demonstr>:] AdjCase[abs] #absolutive
+DemonstrAdvProObl [<pro><demonstr>:] ((AdjOblique[u] Case[Adj_u]) | (AdjOblique[un] Case[Adj_un]) | (AdjOblique[upn] Case[Adj_upn]) | (AdjOblique[ch] Case[Adj_ch]))   # singular Oblique cases
+DemonstrAdvProObl [<pro><demonstr>:] AdjOblique[upn] Case[all_ga] (AllDer | (AllDer1 AllDer2))                                                                         # derived allative cases 
+
+# Plural (adverbal pronouns, incline like adjectives)
+DemonstrAdvProObl [<pro><demonstr>:] AdjCase[plabs] #absolutive
+DemonstrAdvProObl [<pro><demonstr>:] (AdjOblique[ch] Plural[Pl_j] Case[Pl_j] | AdjOblique[u] Plural[Pl_sh] Case[Pl_sh])                 # plural -чу-   
+DemonstrAdvProObl [<pro><demonstr>:] AdjOblique[u] Plural[Pl_sh] Case[Pl_sh,all_der] (AllDer | (AllDer1 AllDer2))?                      # plural -чу- Allative derivatives
+DemonstrAdvProObl [<pro><demonstr>:] ((AdjOblique[pl_a]  (Case[Adj_u,-loc,-gen] | Case[Adj_un])) | (AdjOblique[pl_ap] (Case[Adj_upn] | (Case[all_ga] (AllDer | (AllDer1 AllDer2))))))     # plural -чар-, -чер-, -чаьр-
+DemonstrAdvProObl [<pro><demonstr>:] AdjOblique[pl_a] Epent Case[loc]
+DemonstrAdvProObl [<pro><demonstr>:]AdjOblique[pl_e] Case[gen]
+
+# Attributive use (adverbal pronouns, incline like adjectives)
+DemonstrAdvProAbsAttr [<pro><demonstr>:]
+DemonstrAdvProObl [<pro><demonstr>:] AdjOblique[u]
 
 LEXICON DemonstrProAbsAttr
 хӀара
@@ -25,10 +46,18 @@ LEXICON DemonstrProObl
 хӀара:хӀокх
 я:йокх
 
+LEXICON DemonstrProPl
+хӀара:хӀор
+я:йор
+
 LEXICON ProOblique
 <obl>:у[u]
 <obl>:ун[un]
 <obl>:уьн[upn]
+<obl><pl>:ер[er]
+<obl><pl>:ар[ar]
+<obl><pl>:аьр[apr]
+
 
 # Склоняются совсем как прилагательные
 LEXICON DemonstrAdvProAbsAttr
@@ -37,11 +66,10 @@ LEXICON DemonstrAdvProAbsAttr
 цигара
 кхузара
 
-LEXICON DemonstrAdvProAbsSubst
+LEXICON DemonstrAdvProObl
 дӀара:дӀара
 хьуьллара:хьуьллар
 цигара:цигар
 кхузара:кхузар
 
-LEXICON DemonstrAdvProObl
 
