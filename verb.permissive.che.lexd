@@ -9,8 +9,8 @@ NounClass RegularPermissiveVerbStems[agr] [<v>:] Perm (PermWtnsd | PermPerf | Pe
 # Irregular stemmed verbs
 # Imperative
 PermissiveVerbStemsImp[-agr,-agr_u] [<v>:] Perm PermImp
-NounClassU PermissiveVerbStemsPres[agr_u] [<v>:] Perm PermImp
-NounClass PermissiveVerbStemsPres[agr] [<v>:] Perm PermImp
+NounClassU PermissiveVerbStemsImp[agr_u] [<v>:] Perm PermImp
+NounClass PermissiveVerbStemsImp[agr] [<v>:] Perm PermImp
 
 # Present
 PermissiveVerbStemsPres[-agr,-agr_u] [<v>:] Perm PermPres
