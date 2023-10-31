@@ -111,7 +111,9 @@ Transducer for Chechen lanuage made with twol and lexd
 
 **EpentIns** = slightly more tricky epenthesis (see %{obl%} in twol) to be optionally used when attaching Instrumentalis
 
-**NounClass** = nouns’ genders
+**NounClass** = nouns’ gender morphemes -й, -д, -в, -б
+
+**NounClassU** = nouns’ gender morphemes -ю, -ду, -ву, -бу
 
 **Plural** = plural suffixes
 - [Pl_e] = suffix -е-
@@ -144,3 +146,56 @@ Transducer for Chechen lanuage made with twol and lexd
 - [erg_a] = Ergative ending -а 
 - [erg_s] = Ergative ending -с
 - [erg_o] = Ergative ending -о
+
+
+**VerbInf** = verbs' infinitives
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**VerbPres** = verbs' stems that attach present tense
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**VerbPerf** = verbs' stems that attach past perfect tense
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**VerbFut** = verbs' stems that attach future tense
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**Impf** = imperfect verb morpheme
+
+**Wtnsd** = witnessed past verb morpheme
+
+**RegularPermissiveVerbStems** = verb stems for permissive that do not change with tenses
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**PermissiveVerbStemsPres** = verb stems for permissive that attach only present, future and imperfect past tenses
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**PermissiveVerbStemsWitnPast** = verb stems for permissive that attach only witnessed past tense
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**PermissiveVerbStemsPerf** = verb stems for permissive that attach only perfect past tense
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**PermissiveVerbStemsImp** = verb stems for permissive that attach only imperative
+- [agr] = agree in gender with nouns, attach -й, -д, -б, -в
+- [agr_u] = agree in gender with nouns, attach ю-, ду-, бу-, ву-
+
+**Perm** = permissive verb morpheme
+
+**PermWtnsd** = witnessed past tense morpheme for permissive verbs
+
+**PermPerf** = perfect morpheme for permissive verbs
+
+**PermPres** = present tense morpheme for permissive verbs
+
+**PermImp** = imperfect morpheme for permissive verbs
+
+**PermFut** = future tense morpheme for permissive verbs
